@@ -3,7 +3,7 @@ name: Daily Stock RSI Alert
 on:
   schedule:
     # 한국 09시~16시 매시 정각 (UTC 기준 00시~07시) / 월~금
-    - cron: '0 0-7 * * 1-5'
+    - cron: '0 0-8 * * 1-5'
   workflow_dispatch: # 수동 실행 버튼 활성화
 
 jobs:
