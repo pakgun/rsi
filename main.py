@@ -22,7 +22,7 @@ class MailUtil:
     def __init__(self):
         self.sender = "pakgun1513@gmail.com"
         self.recipients = ["nypark@kku.ac.kr"]
-        self.password = "wtds njam fkct gody"
+        self.password = os.getenv("EMAIL_PASSWORD")
 
     def send_email(self, subject, body):
         msg = MIMEText(body)
