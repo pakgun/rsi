@@ -81,7 +81,7 @@ def main():
         print("발송 조건에 부합하는 지수가 없어 메일을 발송하지 않습니다.")
 
     # Colab 테스트 시 오류 출력을 막기 위해 임시 주석 처리
-#sys.exit()
+    sys.exit()
 
 if __name__ == "__main__":
     main()
